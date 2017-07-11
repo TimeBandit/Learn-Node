@@ -1,0 +1,12 @@
+# From 'this' directory open a terminal and enter `run with docker-compose up --build`
+
+learn-node:
+  build: .
+  dockerfile: ./Dockerfile
+  # image: timebandit/learn-node
+  command: npm start
+  volumes:
+    - .:/home/dev/learn-node
+    - /home/dev/learn-node/node_modules
+  ports:
+    - "7777:7777"
