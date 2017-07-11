@@ -29,7 +29,7 @@ Enjoy!
 ### Running With Docker
 
 1. Install [Docker](https://www.docker.com)
-2. Open a terminal at the local of the **docker-compose.yml** file.
+2. Open a terminal at the location of the **docker-compose.yml** file.
 3. Enter `docker-compose up --build`. The first time, this will create the image for the app to run inside.
    All subsequent runs will be much faster.
 4. Open a browser at [localhost port 7777](http://localhost:7777)
