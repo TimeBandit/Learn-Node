@@ -3,7 +3,6 @@
 learn-node:
   build: .
   dockerfile: ./Dockerfile
-  # image: timebandit/learn-node
   command: npm start
   volumes:
     - .:/home/dev/learn-node
